@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TTH BOX — Служба поддержки</title>
+  <style>
+    :root{
+      --bg:#0b0b0f; --card:#14141c; --border:#2a2a35; --text:#f2f2f7; --muted:#b7b7c7; --link:#7aa2ff; --accent:#2a67ff;
+    }
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+    .wrap{max-width:980px;margin:0 auto;padding:36px 18px}
+    .top{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+    h1{margin:0;font-size:30px;letter-spacing:.2px}
+    .tag{display:inline-block;background:#1f2030;border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin:14px 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:860px){.grid{grid-template-columns:1fr 1fr}}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px;border:0}
+    .btn:hover{text-decoration:none;opacity:.92}
+    ul{margin:10px 0 0 18px}
+    code{background:#1c1c27;padding:2px 6px;border-radius:8px}
+    .hr{height:1px;background:var(--border);margin:12px 0}
+    .small{font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>TTH BOX — Поддержка</h1>
+        <div class="muted">Официальный центр помощи по приложению для защиты конфиденциальных данных (фото и заметки) со встроенным браузером.</div>
+      </div>
+      <div class="tag">Support Center</div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px 0;font-size:20px">Связаться с нами</h2>
+      <div class="muted">Мы отвечаем на вопросы по работе функций, доступу, настройкам приватности, оплате и общим запросам.</div>
+      <div class="hr"></div>
+
+      <p style="margin:0 0 8px 0"><b>Email поддержки:</b> <a href="mailto:TTH_BOX@proton.me?subject=TTH%20BOX%20Support">TTH_BOX@proton.me</a></p>
+      <p style="margin:0" class="muted"><b>Срок ответа:</b> обычно 24–72 часа (в рабочие дни).</p>
+
+      <div class="hr"></div>
+      <p class="small muted" style="margin:0">
+        Пожалуйста, <b>не присылайте</b> пароли, PIN-коды, ключи и конфиденциальные файлы. Для диагностики обычно достаточно описания проблемы и скрина/видео без личной информации.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2 style="margin:0 0 8px 0;font-size:20px">Коротко о продукте</h2>
+        <ul>
+          <li><b>Приватное хранилище</b> для фото и заметок — содержимое предназначено только для владельца устройства.</li>
+          <li><b>Контроль доступа</b> — вход и доступ к разделам ограничиваются настройками защиты PIN.</li>
+          <li><b>Шторка приватности</b> — при сворачивании или переключении задач приложение скрывает содержимое, чтобы оно не было видно посторонним.</li>
+          <li><b>Встроенный браузер</b> — для просмотра веб-страниц внутри приложения.</li>
+          <li><b>Очистка данных</b> — инструменты для удаления истории/кэша/данных браузера и других локальных следов (в рамках доступных функций).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 8px 0;font-size:20px">Быстрые решения</h2>
+        <ul>
+          <li><b>Приложение работает нестабильно:</b> перезапустите приложение, обновите iOS, освободите память устройства.</li>
+          <li><b>Сайт “помнит” меня:</b> используйте очистку данных браузера. Учтите: сайт может хранить сессию на своей стороне.</li>
+          <li><b>Камера/снимок не работает:</b> проверьте разрешение “Камера” в Настройки iOS → Приложения → TTH BOX.</li>
+          <li><b>Покупка/активация:</b> убедитесь, что вы вошли в Apple ID и устройство подключено к интернету.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px 0;font-size:20px">Импорт/экспорт фото и сохранение из браузера</h2>
+      <p>На момент текущей версии приложения <b>импорт/экспорт</b> из системной медиатеки “Фото” отсутствует.</p>
+      <p class="muted small">
+        В будущих версиях может появиться возможность сохранять изображения из встроенного браузера с выбором:
+        сохранить в защищённое хранилище TTH BOX или в системное хранилище iOS. При добавлении такой функции приложение запросит соответствующие разрешения, а документация будет обновлена.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px 0;font-size:20px">Как удалить данные</h2>
+      <div class="muted">Мы придерживаемся принципа “пользователь контролирует данные”.</div>
+      <ul>
+        <li><b>Удалить всё сразу:</b> удалите приложение с устройства — iOS удалит данные приложения с устройства.</li>
+        <li><b>Удалить выборочно:</b> используйте функции очистки внутри приложения (например, история/кэш/данные браузера), если они доступны в настройках.</li>
+        <li><b>Сброс доступа:</b> если выполнен сброс доступа, приложение удаляет все данные и просит вас ввести ключ активации.</li>
+      </ul>
+      <p class="small muted">Примечание: сторонние сайты могут хранить данные у себя. Очистка удаляет локальные данные на устройстве, но не управляет данными на стороне сайта.</p>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px 0;font-size:20px">Что указать в обращении</h2>
+      <ul>
+        <li><b>Устройство:</b> модель iPhone и версия iOS.</li>
+        <li><b>Версия приложения:</b> например <code>1.0 (1)</code>.</li>
+        <li><b>Шаги воспроизведения:</b> что вы сделали по пунктам и что ожидали.</li>
+        <li><b>Результат:</b> что получилось фактически (ошибка/поведение) + скрин/видео без личных данных.</li>
+      </ul>
+      <p class="muted small">Политика конфиденциальности: <a href="./privacy.html">Privacy Policy</a></p>
+    </div>
+
+    <div class="muted small" style="margin-top:18px">
+      © <span id="y"></span> TTH_BOX. All rights reserved. <span style="opacity:.8"></span>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
